@@ -66,7 +66,7 @@ def admin_view(request):
 
 @user_passes_test(is_librarian, login_url='login')
 def librarian_view(request):
-    return render(request, "relationship/librarian_view.html")
+    return render(request, "relationship_app/librarian_view.html")
 
 @user_passes_test(is_member, login_url='login')
 def member_view(request):
