@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Confirm delete</title>
+</head>
+<body>
+  <h1>Delete "{{ book.title|escape }}"?</h1>
+  <form method="post" action="">
+    {% csrf_token %}
+    <button type="submit">Confirm</button>
+  </form>
+</body>
+</html>
