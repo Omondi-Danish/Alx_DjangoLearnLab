@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Submitted</title>
+</head>
+<body>
+  <h1>Form Submitted Successfully</h1>
+  <p>Name: {{ form.cleaned_data.name }}</p>
+  <p>Email: {{ form.cleaned_data.email }}</p>
+  <p>Message: {{ form.cleaned_data.message }}</p>
+</body>
+</html>
