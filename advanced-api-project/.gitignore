@@ -1,0 +1,32 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+static/
+
+# Migrations (optional, comment out if you want to commit them)
+migrations/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
