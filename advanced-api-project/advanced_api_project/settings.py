@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'django-filters',
+    'django_filters',
     'api',
 ]
 
@@ -102,9 +102,9 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 REST_FRAMEWORK = {
-    'DEFAULT_FILTER_BACKENDS': ['django-filters.rest_framework.DjangoFilterBackend',
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend',
                                 'rest_framework.filters.SearchFilter',
-                                'rest_framework.filters.OderingFilter',
+                                'rest_framework.filters.OrderingFilter',
                                 ]
 }
 

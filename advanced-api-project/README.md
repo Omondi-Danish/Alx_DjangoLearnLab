@@ -17,3 +17,17 @@
 Use Postman or curl:
 ```bash
 curl "http://127.0.0.1:8000/api/books/?search=fall&ordering=-publication_year"
+
+
+
+
+# API Testing Strategy
+
+## Scope
+- CRUD operations for Book endpoints
+- Filtering, searching, ordering
+- Permissions (authenticated vs unauthenticated)
+
+## How to Run
+```bash
+python manage.py test api
